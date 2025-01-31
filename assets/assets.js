@@ -92,8 +92,8 @@ export const workData = [
         link: 'https://seethalks-portfolio-web.vercel.app/'
     },
     {
-        title: 'FrontEnd React Project',
-        description: 'FrontEnd E-commerce App using Bootstrap',
+        title: 'FrontEnd Project',
+        description: 'FrontEnd ReactJS E-commerce App using Bootstrap',
         bgImage: '/work-2.png',
          link: 'https://react-e-commerce-app-zeta.vercel.app/'
     },
