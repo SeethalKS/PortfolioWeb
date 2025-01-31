@@ -55,7 +55,8 @@ const Work = ({isDarkmode}) => {
                         </div>
                         <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] 
                         group-hover:bg-lime-300 transition'>
-                            <Image className='w-5' src={assets.send_icon} alt='sendicon'/>
+                          <a href={project.link}> <Image className='w-5' src={assets.send_icon} alt='sendicon'/></a>
+                           
                         </div>
                          </div>
                        

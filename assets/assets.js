@@ -86,24 +86,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Frontend NextJS Project',
+        title: 'FrontEnd Project',
+        description: 'FrontEnd NextJS Project using Tailwind',
         bgImage: '/work-1.png',
+        link: 'https://seethalks-portfolio-web.vercel.app/'
     },
     {
-        title: 'Frontend React project',
-        description: 'Frontend E-commerce App',
+        title: 'FrontEnd React Project',
+        description: 'FrontEnd E-commerce App using Bootstrap',
         bgImage: '/work-2.png',
+         link: 'https://react-e-commerce-app-zeta.vercel.app/'
     },
     {
-        title: 'FULL STACK',
-        description: 'ASP.NET & SQL',
+        title: 'Full Stack Project',
+        description: 'ASP.NET & SQL to build an ecommerce website',
         bgImage: '/work-3.png',
+        link: 'https://github.com/SeethalKS/skinet7'
     },
     {
         title: 'HTML/CSS',
-        description: 'HTML/CSS link',
+        description: 'A webpage using CSS styles and properties',
         bgImage: '/work-4.png',
+        link: 'https://62f7e3309c5def50b9d877cf--musical-klepon-1e09c0.netlify.app/'
     },
 ]
 
