@@ -1,4 +1,6 @@
-import user_image from './user-image.png';
+
+
+import s_image from './s-image.png'
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -11,11 +13,13 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
-import logo from './logo.png';
-import logo_dark from './logo_dark.png';
+
+import s_logo from './seethal_logo.png'
+import s_logo_dark from './seethal_logo_dark.png'
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+
+import profile_image from './profile-image.png'
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -37,7 +41,9 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
 export const assets = {
-    user_image,
+    
+
+    s_image,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -50,11 +56,13 @@ export const assets = {
     git,
     mongodb,
     right_arrow_white,
-    logo,
-    logo_dark,
+  
+    s_logo,
+    s_logo_dark,
     mail_icon,
     mail_icon_dark,
-    profile_img,
+  
+    profile_image,
     download_icon,
     hand_icon,
     header_bg_color,
@@ -79,36 +87,36 @@ export const assets = {
 export const workData = [
     {
         title: 'Frontend project',
-        description: 'Web Design',
+        description: 'Frontend NextJS Project',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Frontend React project',
+        description: 'Frontend E-commerce App',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'FULL STACK',
+        description: 'ASP.NET & SQL',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'HTML/CSS',
+        description: 'HTML/CSS link',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'React-Web design', description: 'Web development is the process of building, programming...', link: 'https://react-e-commerce-app-zeta.vercel.app/' },
+    { icon: assets.mobile_icon, title: 'E-commerce ', description: 'ASP .Net development involves creating software for mobile devices...', link: 'https://github.com/SeethalKS/skinet7' },
+    { icon: assets.ui_icon, title: 'NextJS e-commerce app', description: 'This app focuses on creating a seamless user experience...', link: 'https://next-js-app-route-app.vercel.app/' },
+    { icon: assets.graphics_icon, title: 'HTML/CSS', description: 'Creative design solutions to enhance visual communication...', link: 'https://ineuron-live-class-project-15-seethal.netlify.app/' },
 ]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Masters in Computer Applications' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
