@@ -51,7 +51,7 @@ function Header() {
               initial={{y:30,opacity:0}} 
               whileInView={{y:0,opacity:1}}
               transition={{duration:0.6,delay:1.2}}
-             href="https://docs.google.com/document/d/1f2jpmu0dmlPsPOFzrmiUgI6IPijE8jfIg2wKRcguejU/edit?tab=t.0" download 
+             href="https://drive.google.com/drive/u/1/folders/1_pvfvj0_37DmyoNcb1dCk4eB81zqm9vW" download 
              className='px-10 py-3 border rounded-full
               border-gray-500 flex items-center gap-2 bg-white dark:text-black'>my resume
                     <Image src={assets.download_icon} alt='' 
