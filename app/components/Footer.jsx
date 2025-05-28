@@ -9,7 +9,7 @@ const Footer = ({isDarkMode}) => {
             <Image src={isDarkMode ? assets.s_logo_dark : assets.s_logo} alt='' className='w-36 mx-auto mb-2'/>
             <div className='w-max flex items-center gap-2 mx-auto'>
             <Image src={isDarkMode ? assets.mail_icon_dark: assets.mail_icon} alt='' className='w-6'/>
-            seethal007@outlook.com
+            developersks7@outlook.com
             </div>
             </div>
             <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
